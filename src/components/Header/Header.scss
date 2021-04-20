@@ -1,0 +1,41 @@
+.topbar{
+    background-color: white;
+}
+
+.upBar {
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  
+  margin-inline: 5rem;
+  height: 3rem;
+}
+
+.header {
+  background-color: white;
+
+  &__title {
+    font-weight: normal; 
+    font-size:larger;  
+  }
+
+  &__option {
+    font-size: small;
+    font-weight: normal;
+    padding: 1rem;
+    color: gray;
+  }
+
+  &__link {
+    color: #000;
+    transition: all 0.25s ease-in-out 0s;
+    
+
+    &--active,
+    &:hover {
+      text-decoration: none;
+      color: var(--primary);
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.bottomBar {
+    background-color:black;
+    
+    
+  }
+  
+  .downBar {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content:space-between;
+    
+    align-items: center;
+    margin-inline: 8rem;
+  } 
+
+  .footer {    
+    align-self: center;
+    
+
+    &__title {
+      font-weight: normal; 
+      font-size:xx-large;  
+      color:white; 
+    }
+  
+    &__option {
+      font-weight: normal;
+      font-size:small;
+      color: white;
+      text-justify: center;
+    }  
+
+    &__span {
+      font-weight: normal;
+      font-size: medium;
+      color: white;
+      padding-right: 1rem;
+      padding-left: 0.5rem;
+    }
+
+  }
+  

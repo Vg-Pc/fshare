@@ -1,0 +1,75 @@
+.hero {
+  justify-content: center;
+  display: flex;
+
+  &__banner {
+    height: 20rem;
+    background-image: url("../../assets/images/night-bg.jpeg");
+    padding-top: 3rem;
+    padding-inline: 20rem;
+  }
+
+  &__title {
+    text-align: center;
+    font-weight: normal;
+    color: white;
+  }
+
+  &__paragraph {
+    text-align: center;
+    font-weight: normal;
+    color: white;
+    font-size: medium;
+  }
+
+  &__input {
+    margin-right: 1rem;
+  }
+
+  &__button {
+  }
+
+  &__getLink {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+}
+
+.main {
+  background-color: white;
+  margin-bottom: 8rem;
+
+  &__title {
+    font-weight: 220;
+    font-size: x-large;
+    text-align: center;
+  }
+
+  &__paragraph {
+    font-weight: 200;
+    font-size: medium;
+    text-align: center;
+    padding-inline: 10rem;
+  }
+  &__body {
+    padding-top: 5rem;
+  }
+
+  .input_box {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+  }
+}
+
+.cmt {
+  background-color: rgb(236, 235, 235);
+
+  &__title {
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 3rem;
+  }
+}
