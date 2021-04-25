@@ -1,0 +1,113 @@
+.topbar {
+  // background-color:darkslategray;
+}
+
+.upBar {
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: space-between;
+
+  align-items: center;
+  padding-inline: 3rem;
+  background-color: darkslategray;
+}
+
+.logo {
+  height: 3rem;
+  width: 5rem;
+  background-image: url(../../assets/images/header-lg.png);
+}
+
+.avt {
+  background-color: deeppink;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  align-self: center;
+}
+
+.last {
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  &__but-no {
+    background-color: darkslategray;
+    border: darkslategrey;
+  }
+
+  &__but-me {
+    background-color: darkslategray;
+    border: darkslategrey;
+  }
+
+  &__upload {
+    color: white;
+    padding-right: 1rem;
+  }
+
+  &__account {
+    display: flex;
+    flex-flow: nowrap;
+  }
+
+  &__acc {
+    color: white;
+    padding-left: 0.5rem;
+  }
+
+  &__accControl {
+    height: 3rem;
+    width: 1rem;
+    background-color: darkslategrey;
+    border: darkslategrey;
+  }
+
+  &__notify {
+    padding-left: 1rem;
+  }
+
+  &__mess {
+    padding-left: 1rem;
+  }
+
+  &__more {
+    padding-left: 1rem;
+    color: white;
+  }
+
+  &__moreControl {
+    width: 1rem;
+    background-color: darkslategrey;
+    border: darkslategrey;
+  }
+}
+
+.first {
+  display: flex;
+  flex-flow: nowrap;
+
+  &__button {
+    background-color: darkslategray;
+    height: 3rem;
+    width: 6rem;
+  
+  }
+
+  &__link {
+    color: white;
+    font-size: medium;
+  }
+
+  &__acc {
+    color: white;
+  }
+}
+
+.mid {
+  &__input{ 
+   width: 30rem;
+   height: 2rem;
+  }
+}

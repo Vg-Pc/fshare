@@ -1,0 +1,231 @@
+.home {
+    &__contain {
+        background-color: white;
+        margin-inline: 3rem;
+        // padding-inline: 1rem;
+    }
+
+    &__row {
+        display: flex;
+        flex-flow: nowrap;
+    }
+
+    &__col1 {
+        width: 70%;
+        padding-inline: 1rem;
+    }
+
+    &__col2 {
+        width: 30%;
+        padding-inline: 1rem;
+    }
+}
+
+.block1 {
+
+    &__logo {
+        height: 11rem;
+        width: 11rem;
+        background-image: url(../../assets/images/block1-logo.png);
+    }
+
+    &__title1 { 
+        font-weight: normal;
+        font-size: x-large;
+        margin-bottom: 0.5rem;
+    }
+
+    &__title2 {
+        font-weight: normal;
+        font-size: small;
+        color: grey;
+        margin-bottom: 1.5rem;
+    }
+
+    &__control {
+        height: 11rem;
+        width: 40rem;
+        background-color: dimgrey;
+    }
+
+    &__list {
+        display: flex;
+        flex-flow: nowrap;
+        align-items: center;
+        justify-content: center;
+        
+        height: 13rem;
+        background-color: dimgrey;
+    }
+
+    &__tail {
+        display: flex;
+        flex-flow: nowrap;
+        justify-content: space-between;
+        margin-block: 1rem;
+    }
+
+    &__tail1 {
+        display: flex;
+        flex-flow: nowrap;
+    }
+
+    &__titleTail {
+        margin-left: 0.5rem;
+    }
+
+    &__tailButton {
+        display: flex;
+        flex-flow: nowrap;
+        align-self:center;
+    }
+}
+
+
+
+.line {
+    width: 0.1rem;
+    background-color:grey;
+}
+
+.block2 {
+    
+    &__list {
+        display: inline-block;
+        
+        width: 100%;
+        
+    }
+
+    &__listItem {
+        width: 20rem; 
+    }
+
+    &__logoItem {
+        height: 10rem;
+        width: 10rem;
+        padding-left: 1rem;
+    }
+
+    &__arrow {
+        background-color: red;
+        height: 2rem;
+        width: 2rem;
+        font-size: 1rem;
+        border-radius: 1rem;
+        
+        text-align: center;
+        text-justify: center;
+        cursor: pointer;
+    }
+
+    &__item {
+        display: flex;
+    }
+
+    &__title1 { 
+        font-weight: normal;
+        font-size: x-large;
+        margin-bottom: 0.5rem;
+    }
+
+    &__title2 {
+        font-weight: normal;
+        font-size: small;
+        color: grey;
+        margin-bottom: 1.5rem;
+    }
+}
+
+
+.blocka {
+    
+    &__header {
+        display: flex;
+        flex-flow: nowrap;
+        justify-content: space-between;
+        padding-block: 1rem;
+    }
+
+    &__title {
+        font-size: medium;
+        font-weight: normal;
+        color: grey;
+    }
+
+    &__refresh {
+        font-size: medium;
+        font-weight: normal;
+
+        color: grey;
+        background-color: white;
+        border: white;
+    }
+
+    &__line {
+        height: 0.009rem;
+        background-color: lightgrey;
+    }
+
+    &__list {
+        display: flex;
+        flex-flow: nowrap;
+        align-items: center;
+        padding-block: 1rem;
+    }
+
+    &__detail {
+        display: flex;
+        flex-flow: nowrap;
+        width: 15.4rem;
+        justify-content:space-between; 
+        // background-color: lightseagreen;
+    }
+
+    &__view {
+        display: flex;
+        flex-flow: nowrap;
+        width: 6rem;
+        justify-content: space-between;
+    }
+
+    &__author {
+        font-size: x-small;
+        font-weight: normal;
+    }
+
+    &__follows {
+        font-size: x-small;
+        font-weight: normal;
+    }
+
+    &__tracks {
+        font-size: x-small;
+        font-weight: normal;
+
+    }
+
+    &__add {
+        height: 1.5rem;
+        width: 5rem;
+        font-size: x-small;
+
+        display: flex;
+        justify-content: center;
+        // text-align: center;
+    }
+
+    &__avtList {
+        background-color: gold;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 3rem;
+        margin-right: 1rem;
+       
+    }
+
+    &__infoList {
+        display: block;
+        align-content: space-around;
+    }
+}
